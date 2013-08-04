@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>mono_ginger</string>
+	<key>connections</key>
+	<dict>
+		<key>C25E2EA4-0058-465F-A4A2-6D76BF414234</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E5CCCE0A-5028-4AEB-8D7E-5A41F8A8E3F2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Masayuki Ono</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Ginger</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>ginger</string>
+				<key>runningsubtext</key>
+				<string>gingering...</string>
+				<key>script</key>
+				<string>./ginger_driver.py {query}</string>
+				<key>title</key>
+				<string>Correct your English by Ginger.</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>C25E2EA4-0058-465F-A4A2-6D76BF414234</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>E5CCCE0A-5028-4AEB-8D7E-5A41F8A8E3F2</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Improve your English sentence.
+
+http://www.getginger.jp/
+http://www.gingersoftware.com/rephrase_jpn</string>
+	<key>uidata</key>
+	<dict>
+		<key>C25E2EA4-0058-465F-A4A2-6D76BF414234</key>
+		<dict>
+			<key>ypos</key>
+			<real>180</real>
+		</dict>
+		<key>E5CCCE0A-5028-4AEB-8D7E-5A41F8A8E3F2</key>
+		<dict>
+			<key>ypos</key>
+			<real>180</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>http://mono0926.github.io/</string>
+</dict>
+</plist>
