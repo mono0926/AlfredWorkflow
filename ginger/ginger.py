@@ -74,15 +74,17 @@ class GingerClient(object):
 		ginger_results = [GingerResult.create_from_json(x) for x in results]
 		self.summary = GingerSummary(self.sentence, ginger_results)	
 
+class RephraseClient(object):
+	"""RephraseClient"""
+	base_url = 'http://ro.gingersoftware.com/rephrase/rephrase'
+	def __init__(self, sentence):
+		super(RephraseClient, self).__init__()
+		self.sentence = sentence
 
-# if __name__ == '__main__':
-# 	sentence = 'I am programmer and writing bad english. I am japanese.'
-# 	args = sys.argv
-# 	if len(args) == 2:
-# 		sentence = args[1]
-# 	client = GingerClient(sentence)
-# 	gingered = client.ginger()
-# 	item = workflow.WorkflowItem(gingered, 'Gingered sentence')
-# 	generator = workflow.WorkflowGenerator([item])
-# 	xml = generator.export()
-# 	print(xml)
+	def rephrase(self):
+		response = requests.get(RephraseClient.base_url, params={'s': self.sentence})
+		results = json.loads(response.text)['Sentences']
+		texts = [x['Sentence'] for x in results]
+		return texts
+
+		
