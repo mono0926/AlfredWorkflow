@@ -33,3 +33,7 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+#sublime text
+*.sublime-project
+*.sublime-workspace
