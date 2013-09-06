@@ -8,6 +8,8 @@ They are used by each workflow.
 
 Workflows are listed below.
 
+---
+
 # [Ginger](http://www.getginger.jp/)
 
 ## Feature
@@ -29,6 +31,8 @@ Workflows are listed below.
 
 - Execute [this shell script](https://github.com/mono0926/AlfredWorkflow/blob/master/ginger/ginger.sh), after that, ginger.workflow will be generated.
 
+---
+
 # GoogleCalendar
 
 TBD
@@ -37,6 +41,8 @@ TBD
 
 - Add a schedule.
 - List up schedules.
+
+---
 
 # Reminder
 
