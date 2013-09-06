@@ -19,7 +19,7 @@ Workflows are listed below.
   
 ## Install
 
-- [Direct Download]()
+- [Direct Download](https://github.com/mono0926/AlfredWorkflow/raw/master/ginger/ginger.alfredworkflow)
 - Required environment
   - Homebrew python (recommended: version 2.7.5)
   - requests (pip install)
@@ -27,7 +27,7 @@ Workflows are listed below.
 
 ## Build
 
-- Execute [this shell script](), after that, ginger.workflow will be generated.
+- Execute [this shell script](https://github.com/mono0926/AlfredWorkflow/blob/master/ginger/ginger.sh), after that, ginger.workflow will be generated.
 
 # GoogleCalendar
 
@@ -40,6 +40,8 @@ TBD
 
 # Reminder
 
+TBD
+
 ## Feature
 
-- If you type "15 m", a alert will be shown on your screen.
+- If you type "15 m", an alert will be shown on your screen.
