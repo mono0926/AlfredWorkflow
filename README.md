@@ -3,8 +3,8 @@ AlfredWorkflow
 
 # Workflow
 
-Several helper scripts are contained in thes workflow directory.
-They are uses by each workflow.
+Several helper scripts are contained in this workflow directory.
+They are used by each workflow.
 
 Workflows are listed below.
 
@@ -15,14 +15,14 @@ Workflows are listed below.
 - [Ginger](http://www.getginger.jp/)
   - Correct a typed sentence in English.
 - [Rephrase](http://www.gingersoftware.com/rephrase_jpn)
-  - Enhance a typed sentence ine English.
+  - Enhance a typed sentence in English.
   
 ## Install
 
 - [Direct Download](https://github.com/mono0926/AlfredWorkflow/raw/master/ginger/ginger.alfredworkflow)
 - Required environment
   - Homebrew python (recommended: version 2.7.5)
-  - requests (pip install)
+  - pip install requests
   - Or, if you modify the script, it would run correctly.
 
 ## Build
