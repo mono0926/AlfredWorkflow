@@ -34,7 +34,7 @@ Workflows are listed below.
 
 ## Build
 
-- Execute [this shell script](https://github.com/mono0926/AlfredWorkflow/blob/master/ginger/ginger.sh), after that, ginger.workflow will be generated.
+- Execute [this shell script](https://github.com/mono0926/AlfredWorkflow/blob/master/ginger/ginger.sh), after that, ginger.alfredworkflow will be generated.
 
 ---
 
@@ -55,4 +55,16 @@ TBD
 
 - If you type "remind 15 m -m hello", an alert will be shown on your screen.
 
-![reminder](ScreenShots/reminder.png)
+![reminder](ScreenShots/reminder.png)  
+
+## Install
+
+- [Direct Download](https://github.com/mono0926/AlfredWorkflow/raw/master/reminder/reminder.alfredworkflow)
+- Required environment
+  - Homebrew python (recommended: version 2.7.5)
+  - pip install requests
+  - Or, if you modify the script, it would run correctly.
+
+## Build
+
+- Execute [this shell script](https://github.com/mono0926/AlfredWorkflow/blob/master/reminder/reminder.sh), after that, reminder.alfredworkflow will be generated.
