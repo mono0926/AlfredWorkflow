@@ -16,8 +16,13 @@ Workflows are listed below.
 
 - [Ginger](http://www.getginger.jp/)
   - Correct a typed sentence in English.
+  
+![reminder](ScreenShots/ginger.png)
+
 - [Rephrase](http://www.gingersoftware.com/rephrase_jpn)
   - Enhance a typed sentence in English.
+
+![reminder](ScreenShots/rephrase.png)
   
 ## Install
 
@@ -46,8 +51,8 @@ TBD
 
 # Reminder
 
-TBD
-
 ## Feature
 
-- If you type "15 m", an alert will be shown on your screen.
+- If you type "remind 15 m -m hello", an alert will be shown on your screen.
+
+![reminder](ScreenShots/reminder.png)
