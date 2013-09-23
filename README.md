@@ -38,6 +38,16 @@ Workflows are listed below.
 
 ---
 
+# Change iTunes Speed
+
+## Feature
+
+- Change Speed of the Playing or Selecting Track in iTunes.
+
+## Install
+- [Direct Download]()https://github.com/mono0926/AlfredWorkflow/raw/master/changeSpeed/ChangeITunesSpeed.alfredworkflow)
+
+---
 # GoogleCalendar
 
 TBD
