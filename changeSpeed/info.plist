@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict>
+		<key>A9E87783-B065-4ECB-9D2A-BC83D3AB36AF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6E4851D4-2519-4E23-8174-DE036E285CCF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Masayuki Ono</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>ChangeITunesSpeed</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>changespeed</string>
+				<key>text</key>
+				<string>Change Speed of the Playing or Selecting Track in iTunes</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>A9E87783-B065-4ECB-9D2A-BC83D3AB36AF</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+	tell application "iTunes"
+		pause
+		set my_track to location of selection
+		set my_seconds to player position
+	end tell
+	tell application "QuickTime Player 7"
+		open my_track
+		set my_movie to first document
+		set ts to time scale of my_movie
+		set current time of my_movie to my_seconds * ts
+		if q Is "" then
+			set q to 1.5
+		end if
+		set rate of my_movie to q
+	end tellend alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>6E4851D4-2519-4E23-8174-DE036E285CCF</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>6E4851D4-2519-4E23-8174-DE036E285CCF</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>A9E87783-B065-4ECB-9D2A-BC83D3AB36AF</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>http://mono0926.github.io/</string>
+</dict>
+</plist>
