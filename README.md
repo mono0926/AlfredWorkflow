@@ -16,14 +16,14 @@ Workflows are listed below.
 
 - [Ginger](http://www.getginger.jp/)
   - Correct a typed sentence in English.
-  
+
 ![reminder](ScreenShots/ginger.png)
 
 - [Rephrase](http://www.gingersoftware.com/rephrase_jpn)
   - Enhance a typed sentence in English.
 
 ![reminder](ScreenShots/rephrase.png)
-  
+
 ## Install
 
 - [Direct Download](https://github.com/mono0926/AlfredWorkflow/raw/master/ginger/ginger.alfredworkflow)
@@ -37,6 +37,19 @@ Workflows are listed below.
 - Execute [this shell script](https://github.com/mono0926/AlfredWorkflow/blob/master/ginger/ginger.sh), after that, ginger.alfredworkflow will be generated.
 
 ---
+
+# AudioSource
+
+## Feature
+
+- Toggle sound output between "Line Out" and "Headphones".
+- You can keep the headphones connected to your machine.
+
+![reminder](ScreenShots/AudioSource_headphone.png)  
+
+![reminder](ScreenShots/AudioSource_speaker.png)  
+
+![reminder](ScreenShots/sound_preference.png)  
 
 # Change iTunes Speed
 
