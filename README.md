@@ -51,6 +51,10 @@ Workflows are listed below.
 
 ![reminder](ScreenShots/sound_preference.png)  
 
+## Install
+- [Direct Download](https://github.com/mono0926/AlfredWorkflow/raw/master/audioSource/AudioSource.alfredworkflow)
+
+
 # Change iTunes Speed
 
 ## Feature
